@@ -18,16 +18,6 @@ def distinct_step_sequences(num: int):
     return result
 
 
-"""
-0: 1
-1: 1, 1 + 0
-2: 2, 1 + 1
-3: 3, 2 + 1
-4: 5, 3 + 2
-
-"""
-
-
 if __name__ == "__main__":
     for ind in range(10):
         print(f"{ind}: {distinct_step_sequences(ind)}")
